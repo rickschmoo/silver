@@ -33,10 +33,10 @@ You should totally buy his book on Inclusive Components.
            <a href="#section3">Design</a>
         </li>
          <li>
-           <a href="#section4">Develop</a>
+           <a href="#section5">Develop</a>
         </li>
         <li>
-          <a href="#section5">Evaluate</a>
+          <a href="#section6">Evaluate</a>
        </li>
 	   <li>
           <a href="#section7">Methods</a>
@@ -144,39 +144,55 @@ You should totally buy his book on Inclusive Components.
 	</ul>
 </section>
 
-<section id="section4">
+<section id="section5">
 <h2>Develop</h2>
-<h3>Technical Responsibilities</h3>
+<h3>Technical Responsibilities (TBD - need to be consistent with functional outcomes)</h3>
 	<ol>
+		<li>Ensure that the headings are organized in a logical outline to enable users to quickly find what they are looking for. </li>
 		<li>Ensure that the section headings are coded semantically &mdash; not just visual styling, so that assistive technology can correctly interpret them. </li>
-		<li>Ensure that the headings are organized in a logical outline.  </li> 
-		<li>Enable users to quickly find what they are looking for. </li>
+		<li>Ensure that the visual styling of the heading levels communicate the organization of the headings.  For example, a heading should be more prominant than a sub-heading. Remember, this cannot be done with just color alone so that people who are color blind can see the heading structure. 
 	</ol>
 <h3>Examples and Tutorials</h3>
 	<p><a href="https://www.w3.org/WAI/tutorials/page-structure/headings/">Tutorial: Headings</a> from Web Accessibility Tutorials from the Web Accessibility Initiative</p>
 </section>
 
-<section id="section5">
-<h2>Test & Audit</h2>
-<h3>Testing Responsibilities</h3>
+<section id="section6">
+<h2>Evaluate</h2>
+<p>See the Methods for the specific tests for the technology being used. This section describes general tests and responsibilities that are applicable to any technology or platform.</p>
+<h3>Testing Responsibilities <span class="note">(adapted from Functional Outcomes in ED)</span></h3>
 	<ol>
-		<li>Ensure that headings exist and are logical</li>
-		<li>Structure the content so users know what to expect in each section. </li>
+	<li>Ensure text is organized into logical chunks to make locating information easier and faster</li>
+    <li>Ensure there is semantic structure for assistive technology users</li>
+    <li>Ensure there are visually distinct headings</li>
 	</ol>
-<h3>Auto-Testing Tips:</h3>
-	<p>TBD</p>
-<h3>Manual Testing Tips:</h3>
-	<p>TBD</p>
-<h3>Testing with Users:</h3>
-	<p>TBD - different from user reeearch or testing, this is tips for QA testing by PwD. </p>
-	</ul>
+<h3>Test Responsibilities by Functional Need</h3>
+<ol>
+<li>Ensure text is organized into logical chunks to make locating information easier and faster
+<ul class="noBullet">
+<li class="note">TBD - is there any group this doesn't apply to?</li>
+</ul></li>
+<li>Ensure there is semantic structure for assistive technology users</li>
+	<ul>
+	<li>Usage without vision</li>
+	<li>Usage with limited vision</li>
+	</ul></li>
+<li>Ensure there are visually distinct headings</li>
+	<ul>
+	<li>Usage with limited vision</li>
+	<li>Usage with limited cognition</li>
+	<li><span class="note">[Usage with more granular breakdown of cognitive disabilities]</span></li>
+	</ul></li>
 </section>
 <section id="section7">
 <h2>Methods</h2>
+<ul class="noBullet">
+   <li>Method: <a href="../Methods/Headings-HTML.html">Headings in HTML & ARIA</a></li>
+   <li><strong>Usability:</strong> Evaluating the usability of headings (TBD)</li> 
+</ul>
+<h3> WCAG 2.1 Techniques (for reference and additional information)</h3>
 	<ul class="noBullet">
         <li><strong>General:</strong> <a href="https://www.w3.org/TR/WCAG20-TECHS/G141.html">Organizing a page using headings</a> (WCAG 2.1 Technique G141)</li>
         <li><strong>HTML:</strong> <a href="https://www.w3.org/TR/WCAG20-TECHS/H69.html">Providing heading elements at the beginning of each section of content</a> (WCAG 2.1 Technique H69) </li>
-		<li><strong>Usability:</strong> Evaluating the usability of headings (TBD)</li> 
 	</ul>
 </section>
 </div>
