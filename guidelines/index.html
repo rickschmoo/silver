@@ -172,28 +172,35 @@ This model is more responsive to user needs and allows designers more choice in 
 <p>A conformance claim or following the recommended scoring below is optional. </p>
 <p>When the Silver Task Force researched WCAG 2.0, they found that, generally, people like WCAG guidance but wanted changes to the structure, including the conformance. The major issues that Silver conformance addresses are: </p>
 <ul>
-<li>Make the site or product's conformance better reflect the needs and experiences of people with disabilities. Change from the "all-or-nothing-to-pass" method of WCAG conformance to scores based on percentage, so organizations can show their degree of conformance. This allows an organization to say: "Our product or site may not be 100% conformant, but it's usable by people with disabilities."
-<li>Change the conformance definition from an emphasis of "one page, a series of pages, or multiple related Web pages" <span class="ednote">[Challenges] [WCAG 2.1]</span> to a broader orientation that: 
+<li>Better reflect the needs and experiences of people with disabilities. </li>
+<li>The disability needs addressed by WCAG level A vs level AAA has the long-term effect of treating some disabilities as a higher priority than others.  
+<li>Scoring an author's site, app, or product as "perfect or nothing", because if you have even one mistake in one level A success criterion, the entire site fails. 
+<li>Large or complex sites cannot claim WCAG 2.x conformance because it is not possible to test every page or state.  
+</ul>
+<p>We do this by introducing the concept of "Substantial Conformance".  
+<ul>
+<li>Change from the "all-or-nothing-to-pass" [WCAG 2.1] method of WCAG conformance to scores based on percentage, so organizations can show their degree of conformance. This allows an organization to say: "Our product or site may not be 100% conformant, but it's usable by people with disabilities."</li>
+<li>Ensure that conformance doesn't favor any disability over another by removing the weighting by disability need. All guidelines are important to one group or another, therefore all should have equal weight. </li>
+<li>Uses a "representative sampling" conformance method to address the needs of large, complex, or dynamic sites, apps, projects, or products. In these cases, organizations can't test every page as WCAG 2.x Conformance requires. We refer to specific sections of WCAG-EM to define the representative sampling approach.  </li>
+<li>Change the conformance definition from an emphasis of "one page, a series of pages, or multiple related Web pages" [<cite><a href="#wcag21">WCAG21</a></cite>] to a broader orientation that: 
 <ul>
 <li>is more inclusive of digital technologies beyond web pages
-<li>allows organizations to claim entire sites, products, or sub-sections of a site or product. 
-</ul>
-<li>Use a "representative sampling" conformance method to address the needs of large, complex, or dynamic sites, apps, projects, or products. In these cases, organizations can't test every page as WCAG 2.x Conformance requires. We refer to specific sections of WCAG-EM to define the representative sampling approach.  
-<li>Allow organizations to decide the important parts of their products or sites to assess for accessibility. Some sites may have workflows that are less critical than other portions of their product, site, or app. Thus, it wouldn't fail accessibility tests if it has bugs that don't impact its accessibility or its users with disabilities. 
-<li>Ensure that conformance doesn't favor any disability over another. 
+<li>allows organizations to claim entire sites, apps, products, or sub-sections of a site, app, or product. 
+</ul></li>
+<li><span class="ednote">Still to do: </span> Allow organizations to decide the important parts of their products or sites to assess for in-depth accessibility task completion testing. Some sites may have workflows that are less critical than other portions of their product, site, or app. This allows for prioritization of the most urgent accessibility fixes. </li>
 </ul>
 <p>Scoring and Conformance is divided into the following sections: <p>
 <ul>
-<li>Scope of conformance claim
-<li>Sampling
-<li>Points and Levels
-<li>Accessibility Supported
+<li>Scope of conformance claim</li>
+<li>Sampling </li>
+<li>Points and Levels <li>
+<li>Accessibility Supported </li>
 </ul>
 <p class="ednote">The sections on <a href="explainer.html#ConformanceGoals">Goals</a> and <a href="explainer.html#how-conformance-fits-into-the-information-architecture">How Conformance Fits in the Information Architecture</a> have moved to the <a href="explainer.html">Explainer</a> document. </p>
 
 
 <section>
-<h3>Scope of Conformance Claim</h3>
+<h3>Scope of a Substantial Conformance Claim</h3>
 <p>As technology advances, the WCAG 2.x scope of an individual page becomes more limiting and a flexible way is needed. Needs vary by factors that include but are not limited to: size; complexity; dynamic content; statefulness; frequency of publishing; third-party integrations; custom and scoped web components; critical user flows; etc.
 </p>
 <p>An organization or author who want to make an conformance claim can select a logical sub-section of the site, application, or product.  It cannot be used to make a claim outside the scope. This is common practice today, but has never been a formal part of WCAG 2.x Conformance. </p>
@@ -204,7 +211,7 @@ The organization (or author) should consider its own factors and determine the s
 </section>
 
 <section>
-<h3>Sampling</h3>
+<h3>Sampling a Substantial Conformance Claim</h3>
 <p>
 Sampling helps give confidence whether people building the product, app, site, or digital property have done the accessibility work that makes the product more accessible to people with disabilities. Sampling gives an indication of where you are in accessibility, but it doesn't guarantee that the tester finds every problem.  It's particularly effective when a product or site is built with accessible components. The more a site is created from a set of components, the more you want to get those components accessible.  </p>
 <p>
@@ -275,7 +282,7 @@ Representative sampling is a way to assess large properties without having to te
 
 <section>
 <h3>Points and Levels</h3>
-<p>Each guideline awards a percentage of a point. A perfect accessibility score would be 100%, and a complete failure is 0%. All points count towards an overall total. The site or product tested must meet a minimum score for each disability category. The categories are based on the <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN301 549 Functional Performance Statements</a>, but will need more categories such as needs of people with vestibular disorders and a detailed breakdown of cognitive disability categories.  
+<p>Each guideline awards a percentage of a point. A perfect accessibility score would be 100%, and a complete failure is 0%. All points count towards an overall total. The site or product tested must meet a minimum score for each disability category. The categories are based on the <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf">EN301 549 Functional Performance Statements</a>, but will need more categories such as needs of people with vestibular disorders and a more granualar breakdown of cognitive disability categories.  
 </p>
 <ul> 
 <li>Scoring will be by percentage: each guideline will be worth 1 point (100%) -- a complete failure would be worth 0 points (0%). Each guideline cannot have a score higher than 1 or lower than 0. Multiple methods for one guideline don’t gain more points. 
