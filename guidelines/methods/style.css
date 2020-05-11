@@ -101,7 +101,13 @@ body {
   font-size: 80%;
   margin-bottom: 1.25rem;
 }
-
+.tabnav {
+  padding: 0.25rem;
+  font-size: 80%;
+}	
+h3 {
+	background: #fbecee;
+}
 
 /** Editor's Notes **/
 /** Non-normative Note ********************************************************/
@@ -137,18 +143,18 @@ body {
 		border-collapse:collapse; 
 	}
 	.TFtable td{ 
-		padding:7px; border:#4e95f4 1px solid; vertical-align:top;
+		padding:7px; border:#c7eada 1px solid; vertical-align:top;
 	}
 	/* provide some minimal visual accomodation for IE8 and below */
 	.TFtable tr{
-		background: #b8d1f3;
+		background: #daf1e6;
 	}
 	/*  Define the background color for all the ODD background rows  */
 	.TFtable tr:nth-child(odd){ 
-		background: #b8d1f3;
+		background: #c7eada;
 	}
 	/*  Define the background color for all the EVEN background rows  */
 	.TFtable tr:nth-child(even){
-		background: #dae5f4;
+		background: #daf1e6;
 	}
 

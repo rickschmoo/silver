@@ -27,28 +27,21 @@ You should totally buy his book on Inclusive Components.
           <a href="#section1">Get Started</a>
         </li>
         <li>
-          <a href="#section2">Plan</a>
+          <a href="#section2">Responsibility</a>
         </li>
         <li>
-           <a href="#section3">Design</a>
+           <a href="#section3">Methods</a>
         </li>
          <li>
-           <a href="#section5">Develop</a>
+           <a href="#section4">Testing</a>
         </li>
-        <li>
-          <a href="#section6">Evaluate</a>
-       </li>
-	   <li>
-          <a href="#section7">Scoring</a>
-       </li>
-	   <li>
-          <a href="#section8">Methods</a>
-       </li>
       </ul>
 
 <section id="section1">
 <h2>Get Started</h2>
-<h3>Summary</h3>
+<p class="tabnav"><a href="#summary">Summary</a> | <a href="#why">Why</a> | <a href="#who">Who</a> | <a href="#how">How</a> | <a href="#what">What</a> | <a href="#except">Exceptions</a></p>
+
+<h3 id="summary">Summary</h3>
 	<p>Headings &mdash; including titles and subtitles &mdash; organize words and images on a web page. <p>
 	<p>Types of content that may use a heading (Content may be presented individually or in a connected group):</p>
 	<ul>
@@ -59,21 +52,21 @@ You should totally buy his book on Inclusive Components.
 		<li>Graphics
 	</ul>
 
-<h3>Why</h3>
+<h3 id="why">Why</h3>
 	<ul>
 		<li>Headings help people understand and navigate what you write.
 		<li>Headings make it easier to find updated content.
 		<li>Mobile users find it easier to scan material with clear headings.
 		<li>Headings allow readers to skim longer passages of text and choose which parts they want to read.   
 	</ul>		
- <h3>Who it helps</h3>
+ <h3 id="who">Who it helps</h3>
 	<ul>
 		<li>Visually impaired and blind people use headings to navigate sections.  
 		<li>People with cognitive disabilities use headings to understand how writers organize their thoughts. 
 		<li>People who use keyboard navigation use headings to jump to content they want to read.
 		<li>All readers benefit from clear organization and navigation, especially when their time and energy are limited.
 	</ul>
-<h3>How</h3>
+<h3 id="how">How</h3>
 	<ul>
 		<li>Organize your text into sections and give each of them a heading.  
 		<li>Write a heading that clearly and concisely describes the topic in the section below.
@@ -81,42 +74,29 @@ You should totally buy his book on Inclusive Components.
 		<li>Include your headings and subheadings in your site map or table of contents.
 		<li>Use chapters &mdash; like a printed book &mdash; for longer blocks of text.
 	</ul>
-<h3>Exceptions</h3>
+<h3 id="except">Exceptions</h3>
 	<ul>
 		<li>You don't need to insert headings into documents you upload from another author, or in a place where they won't work for artistic reasons. But remember to add them where you can—your readers will appreciate it.
 		<li>Don’t just use a heading because it’s catchy; be sure the heading gives structure and context to its related content.
 		<li>Form fields, menus and checkboxes are not headings.  For more information about how to do these, please see <a href="https://www.w3.org/TR/WCAG20/#user-interface-componentdef">user interface components</a>. [Editor Note: We haven't worked out how to display definitions yet, so for now, they just all link to WCAG.]
-
-	</ul>
-<h3>Examples</h3>
-<h4> A restaurant menu heading structure</h4>
-	<ul class="noBullet">
-		<li>Layer 1 - Menu
-		<ul class="noBullet">
-			<li>Layer 2 - Appetizers
-			<ul class="noBullet">
-				<li>Layer 3 - Soups
-				<li>Layer 3 - Salads
-				</li></ul>
-			<li>Layer 2 - Entrees
-			<ul class="noBullet">
-				<li>Layer 3 - Fish
-				<li>Layer 3 - Meats
-				<li>Layer 3 - Specials
-			</li></ul>
-		</li>
 	</ul>
 </section>
 
  <section id="section2">
-<h2>Plan</h2>
-<h3>Planning Responsibilities:</h3>
+<h2>Responsibility</h2>
+<p class="tabnav"><a href="#shared">Shared</a> | <a href="#plan">Plan</a> | <a href="#design">Design</a> | <a href="#edit">Editorial</a> | <a href="#dev">Develop</a> </p>
+
+<h3 id="shared">Shared</h3>
+	<ul>
+		<li>To be written - this section identifies any responsibilities that are shared across different actions</li>
+	</ul>
+<h3 id="plan">Plan</h3>
 	<ul>
 		<li>Ensure that people can quickly find information within your product's text. </li>
 		<li>Headings make it easier for people to find information. Too many headings or disorganized headings make it more difficult. Review headings in your usability testing. </li>
 		<li>If your organization wants to qualify for a certain conformance level of Silver, then see the Methods section. </li>
 	</ul>
-<h3>Tips for Collaboration</h3>
+<h4>Tips for Collaboration</h4>
 	<ul>
         <li>Editors or people responsible for writing text know to keep it well organized. </li>
 		<li>Designers include an appropriate organization and design of headings for your product.</li>
@@ -124,51 +104,67 @@ You should totally buy his book on Inclusive Components.
 		<li>UX team knows to evaluate the organization of the text</li>
 		<li>QA testers know to include testing for appropriate heading structure, including semantic code (if available)</li>
 	</ul>
-<h3>Planning for Each Stage:</h3>
+<h4>Planning for Each Stage:</h4>
         <p><strong>How to get started early:</strong> Early project meetings need to discuss accessibility and the importance of improving the usability of the site for people with disabilities. Writing, designing, and coding well organized text content will help all users. </p>
         <p><strong>How to remediate: </strong> The most common problem with headings is visually styled headings that are not semantic, so assistive technology (like screen readers) cannot tell that the text is a heading.  The developers need to research the appropriate semantic code.  In HTML, that would be an h1, h2, h3 tag.  For other technologies, see the Method for that technology. </p>
-</section>
-
-<section id="section3">
-<h2>Design</h2>
-<h3>Design Responsibilities</h3>
+<h3 id="design">Design</h3>
 	<ol>
 		<li>Ensure that the text of your product is structurally organized. </li> 
 		<li>The visual styling of the different heading levels also helps to organize the content. </li>
 		<li>Visual styling needs to be coded semantically, that is, the code communicates the level of the headings to non-visual users. This is more of a developer responsibility, but it can be a common issue if the design team "owns" the CSS, which could force a developer to use a non-semantic code element to get the appearance the designer wants.</li>
 	</ol>
-<h3>HOW - Guide:</h3>
+<h4>HOW - Guide:</h4>
         <p>Link to Style Guide(s)</p>
         <p><a href="https://www.w3.org/WAI/perspective-videos/layout/">Video: Clear Layout and Design</a> from Web Accessibility Initiative's Perspectives Video Series </p>
-<h3>Designer Tips:</h3>
-<p>TBD</p>
-<h3>User Testing & Meaningful Involvement:</h3>
-<p>TBD</p>
+<h4>Designer Tips:</h4>
+	<ul><li>To be written - describes helpful information around the design action that would help design accessible headings</li></ul>
+<h4>User Testing & Meaningful Involvement:</h4>
+	<ul><li>To be written - describes suggestions around user testing with people with disabilities or involving people with disabilities in the design activity. A Headings example would be to ask how the headings structure appears in a screenreader and whether changing the order of words would make it easier to locate information for screen readers navigating by a list of headings. </li></ul>
 	</ul>
-</section>
-
-<section id="section5">
-<h2>Develop</h2>
-<h3>Technical Responsibilities (TBD - need to be consistent with functional outcomes)</h3>
+<h3 id="edit">Editorial</h3>
+<p>To be written - this describes how to choose headings that describe the content in the section, and how to decide how many headings to have.  It should mostly be links to resources. </p>
+<h3 id="dev">Develop</h3>
+<h4>Technical Responsibilities (TBD - need to be consistent with functional outcomes)</h4>
 	<ol>
 		<li>Ensure that the headings are organized in a logical outline to enable users to quickly find what they are looking for. </li>
 		<li>Ensure that the section headings are coded semantically &mdash; not just visual styling, so that assistive technology can correctly interpret them. </li>
 		<li>Ensure that the visual styling of the heading levels communicate the organization of the headings.  For example, a heading should be more prominant than a sub-heading. Remember, this cannot be done with just color alone so that people who are color blind can see the heading structure. 
 	</ol>
-<h3>Examples and Tutorials</h3>
+<h4>Examples and Tutorials</h4>
 	<p><a href="https://www.w3.org/WAI/tutorials/page-structure/headings/">Tutorial: Headings</a> from Web Accessibility Tutorials from the Web Accessibility Initiative</p>
 </section>
 
-<section id="section6">
-<h2>Evaluate</h2>
+<section id="section3">
+<p class="tabnav"><a href="#general">General</a> | <a href="#html">HTML</a> | <a href="#wcag2">WCAG2 Techniques</a> </p>
+
+<h2>Methods</h2>
+<h3 id="general">General</h3>
+<ul class="noBullet">
+   <li><strong>Usability:</strong> Evaluating the usability of headings (TBD)</li> 
+</ul>
+<h3 id="html">HTML</h3>
+<ul class="noBullet">
+   <li>Method: <a href="../methods/Headings-HTML.html">Headings in HTML & ARIA</a></li>
+</ul>
+<h3 id="wcag2"> WCAG 2.1 Techniques (for reference and additional information)</h3>
+	<ul class="noBullet">
+        <li><strong>General:</strong> <a href="https://www.w3.org/TR/WCAG20-TECHS/G141.html">Organizing a page using headings</a> (WCAG 2.1 Technique G141)</li>
+        <li><strong>HTML:</strong> <a href="https://www.w3.org/TR/WCAG20-TECHS/H69.html">Providing heading elements at the beginning of each section of content</a> (WCAG 2.1 Technique H69) </li>
+	</ul>
+</section>
+
+<section id="section4">
+<h2>Testing</h2>
+<p class="tabnav"><a href="#outcomes">Functional Outcomes</a> | <a href="#eval">Evaluate</a> | <a href="#atomic">Pass / Fail</a> | <a href="#task">Task Based</a> | <a href="#scoring">Scoring</a> </p>
+
 <p>See the Methods for the specific tests for the technology being used. This section describes general tests and responsibilities that are applicable to any technology or platform.</p>
-<h3>Testing Responsibilities <span class="note">(adapted from Functional Outcomes in ED)</span></h3>
+<h3 id="#outcomes">Functional Outcomes</h3>
 	<ol>
 	<li>Ensure text is organized into logical chunks to make locating information easier and faster</li>
     <li>Ensure there is semantic structure for assistive technology users</li>
     <li>Ensure there are visually distinct headings</li>
 	</ol>
-<h3>Test Responsibilities by Functional Need</h3>
+<h4>Test Responsibilities by Functional Need</h4>
 <ol>
 <li>Ensure text is organized into logical chunks to make locating information easier and faster
 <ul class="noBullet">
@@ -185,10 +181,22 @@ You should totally buy his book on Inclusive Components.
 	<li>Usage with limited cognition</li>
 	<li><span class="note">[Usage with more granular breakdown of cognitive disabilities]</span></li>
 	</ul></li>
-</section>
-
-<section id="section7">
-<h2>Scoring</h2>
+</ol>
+<h3 id="eval">Evaluate</h3>
+<p>To be written - here is the prior version from February 2020</p>
+<h4>Automated testing tips:</h4>
+<p>To be written </p>
+<h4>Manual Testing Tips:</h4>
+<p>To be written </p>
+<h4>Testing with Users with Disabilities</h4>
+<p>To be written  - different from user reeearch or testing, this is tips for QA testing by PwD.</p> 
+<h3 id="atomic">Pass / Fail</h3>
+<p>To be written </p>
+<h3 id="task">Task Based</h3>
+<p>To be written - should include: </p>
+<ul><li>considerations of testing headings across a task</li>
+<li>non-interference of other headings (or lack of) in the view interfering with the ability to accomplish the task</li> </ul>
+<h3 id="scoring">Scoring</h3>
 <table class="TFtable">
 <tr>
 <th>What you did</th>
@@ -215,19 +223,6 @@ You should totally buy his book on Inclusive Components.
 <td>33%</td>
 </tr>
 </table>
-</section>
-
-<section id="section8">
-<h2>Methods</h2>
-<ul class="noBullet">
-   <li>Method: <a href="../methods/Headings-HTML.html">Headings in HTML & ARIA</a></li>
-   <li><strong>Usability:</strong> Evaluating the usability of headings (TBD)</li> 
-</ul>
-<h3> WCAG 2.1 Techniques (for reference and additional information)</h3>
-	<ul class="noBullet">
-        <li><strong>General:</strong> <a href="https://www.w3.org/TR/WCAG20-TECHS/G141.html">Organizing a page using headings</a> (WCAG 2.1 Technique G141)</li>
-        <li><strong>HTML:</strong> <a href="https://www.w3.org/TR/WCAG20-TECHS/H69.html">Providing heading elements at the beginning of each section of content</a> (WCAG 2.1 Technique H69) </li>
-	</ul>
 </section>
 </div>
 

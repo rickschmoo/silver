@@ -105,7 +105,13 @@ body {
   padding:.5rem;	
   float: right;
 }
-
+.tabnav {
+  padding: 0.25rem;
+  font-size: smaller;
+}	
+h3 {
+	background: #fbecee;
+}
 /** Editor's Notes **/
 /** Non-normative Note ********************************************************/
 
@@ -134,22 +140,22 @@ body {
 	
 /** Table **/
 
-	.OEtable{
+	.TFtable{
 		width:100%; 
 		border-collapse:collapse; 
 	}
-	.OEtable td{ 
-		padding:7px; border:#4e95f4 1px solid; vertical-align:top;
+	.TFtable td{ 
+		padding:7px; border:#c7eada 1px solid; vertical-align:top;
 	}
 	/* provide some minimal visual accomodation for IE8 and below */
-	.OEtable tr{
-		background: #b8d1f3;
+	.TFtable tr{
+		background: #daf1e6;
 	}
 	/*  Define the background color for all the ODD background rows  */
-	.OEtable tr:nth-child(odd){ 
-		background: #b8d1f3;
+	.TFtable tr:nth-child(odd){ 
+		background: #c7eada;
 	}
 	/*  Define the background color for all the EVEN background rows  */
-	.OEtabletable tr:nth-child(even){
-		background: #dae5f4;
+	.TFtable tr:nth-child(even){
+		background: #daf1e6;
 	}
